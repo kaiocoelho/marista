@@ -36,10 +36,10 @@
             <tbody>
                 <tr>
                     <th scope="row">
-                        Aluno 1
+                        Alice Augusta de Oliveira M.
                     </th>
                     <td style="text-align:center">
-                        A
+                        5F
                     </td>
                     <td>
                         <div class="d-flex justify-content-center">
@@ -58,10 +58,10 @@
                 </tr>
                 <tr>
                     <th scope="row">
-                        Aluno 2
+                        Amanda Lemes de Carvalho
                     </th>
                     <td style="text-align:center">
-                        B
+                        3F
                     </td>
                     <td>
                         <div class="d-flex justify-content-center">
@@ -80,10 +80,10 @@
                 </tr>
                 <tr>
                     <th scope="row">
-                        Aluno 3
+                        Bento Bereohff Ferreira M.
                     </th>
                     <td style="text-align:center">
-                        A
+                        4E
                     </td>
                     <td>
                         <div class="d-flex justify-content-center">
@@ -102,10 +102,10 @@
                 </tr>
                 <tr>
                     <th scope="row">
-                        Aluno 4
+                        Carolina Peres Amorim
                     </th>
                     <td style="text-align:center">
-                        A
+                        2D
                     </td>
                     <td>
                         <div class="d-flex justify-content-center">
