@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style>
         .imagem {
             width: 20%;
@@ -31,15 +32,33 @@
                 <th scope="col" style="text-align:center">Aluno</th>
                 <th scope="col" style="text-align:center">Turma</th>
                 <th scope="col" style="text-align:center">Cardápio</th>
+                <th scope="col" style="text-align:center">Dia</th>
+                <th scope="col" style="text-align:center">Controle</th>
                 <th scope="col" style="text-align:center">Observação</th>
             </thead>
             <tbody>
                 <tr>
                     <th scope="row">
-                        Alice Augusta de Oliveira M.
+                        <div class="d-flex justify-content-center">
+                            <select>
+                                <option val="" selected disabled>Selecione</option>
+                                <option val="1">Alice Augusta de Oliveira M.</option>
+                                <option val="2">Amanda Lemes de Carvalho</option>
+                                <option val="3">Bento Bereohff Ferreira M.</option>
+                                <option val="4">Carolina Peres Amorim</option>
+                            </select>
+                        </div>
                     </th>
-                    <td style="text-align:center">
-                        5F
+                    <td>
+                        <div class="d-flex justify-content-center">
+                            <select>
+                                <option val="" selected disabled>Selecione</option>
+                                <option val="1">5F</option>
+                                <option val="2">3F</option>
+                                <option val="3">4E</option>
+                                <option val="4">2D</option>
+                            </select>
+                        </div>
                     </td>
                     <td>
                         <div class="d-flex justify-content-center">
@@ -53,68 +72,26 @@
                         </div>
                     </td>
                     <td>
-                        <input type="text" class='w-100'>
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row">
-                        Amanda Lemes de Carvalho
-                    </th>
-                    <td style="text-align:center">
-                        3F
-                    </td>
-                    <td>
                         <div class="d-flex justify-content-center">
                             <select>
                                 <option val="" selected disabled>Selecione</option>
-                                <option val="1">1</option>
-                                <option val="2">2</option>
-                                <option val="3">3</option>
-                                <option val="4">4</option>
+                                <option val="1">Segunda-feira</option>
+                                <option val="2">Terça-feira</option>
+                                <option val="3">Quarta-feira</option>
+                                <option val="4">Quinta-feira</option>
+                                <option val="5">Sexta-feira</option>
                             </select>
                         </div>
                     </td>
                     <td>
-                        <input type="text" class='w-100'>
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row">
-                        Bento Bereohff Ferreira M.
-                    </th>
-                    <td style="text-align:center">
-                        4E
-                    </td>
-                    <td>
                         <div class="d-flex justify-content-center">
                             <select>
                                 <option val="" selected disabled>Selecione</option>
-                                <option val="1">1</option>
-                                <option val="2">2</option>
-                                <option val="3">3</option>
-                                <option val="4">4</option>
-                            </select>
-                        </div>
-                    </td>
-                    <td>
-                        <input type="text" class='w-100'>
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row">
-                        Carolina Peres Amorim
-                    </th>
-                    <td style="text-align:center">
-                        2D
-                    </td>
-                    <td>
-                        <div class="d-flex justify-content-center">
-                            <select>
-                                <option val="" selected disabled>Selecione</option>
-                                <option val="1">1</option>
-                                <option val="2">2</option>
-                                <option val="3">3</option>
-                                <option val="4">4</option>
+                                <option val="1">Nada</option>
+                                <option val="2">Pouco</option>
+                                <option val="3">Metade</option>
+                                <option val="4">Quase</option>
+                                <option val="5">Tudo</option>
                             </select>
                         </div>
                     </td>
@@ -130,8 +107,14 @@
     </div>
 
 </body>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
 </html>
